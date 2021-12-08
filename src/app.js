@@ -1,6 +1,7 @@
 require("dotenv-safe").config();
 const express = require("express");
 const cors = require("cors");
+const db = require("./database/mongoConfig");
 
 const app = express();
 
@@ -13,5 +14,7 @@ const index = require("./routes/indexRoutes");
 
 app.use("/users", routesCestas);
 app.use("/", index);
+
+db.connect();
 
 module.exports = app 
