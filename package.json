@@ -1,0 +1,26 @@
+{
+  "name": "cestas-solidarias",
+  "version": "1.0.0",
+  "description": "Aplicação para pessoas em estado de vulnerabilidade social se cadastrem e possam receber ajuda, um auxílio da população",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannahFreitas/cestas-solidarias.git"
+  },
+  "author": "Hannah Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannahFreitas/cestas-solidarias/issues"
+  },
+  "homepage": "https://github.com/HannahFreitas/cestas-solidarias#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
