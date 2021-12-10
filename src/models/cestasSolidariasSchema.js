@@ -38,6 +38,12 @@ const userSchema = new mongoose.Schema({
         required: true,
         default: false
     },
+    informaçao: {
+        type: String,
+        required: true,
+        min: 100,
+        max: 900
+    },
     criadoEm: {
         type: Date,
         required: true,
