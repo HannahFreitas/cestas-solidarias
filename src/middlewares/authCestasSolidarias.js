@@ -8,11 +8,16 @@ exports.checkAuth = (req, res, next) => {
 
     try {
         const secret = process.env.SECRET;
-
-        jwt.verify(token, secret);
-
+        //com ajuda de Rafa
+        jwt.verify(token, secret, (err, decoded) => {
+            if(err) {
+              return res.status(400).json({message: "Token inválido"})
+            }
+            
+            req.userId = decoded.id;
+          });
         next();
-    } catch (err) {
+    } catch (error) {
         res.status(400).json({ message: "O Token é inválido!" });
     }
 }

@@ -10,9 +10,11 @@ app.use(cors());
 
 
 const routesCestas = require("./routes/cestasSolidariasRoutes");
+const routesLogin = require("./routes/loginUsuarioRoutes");
 const index = require("./routes/indexRoutes");
 
 app.use("/users", routesCestas);
+app.use("/helpers", routesLogin);
 app.use("/", index);
 
 db.connect();

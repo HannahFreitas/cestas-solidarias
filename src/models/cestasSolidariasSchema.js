@@ -10,12 +10,13 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
-        lowercase: true
+        lowercase: true,
+        select: false
     },
     celular: {
         type: Number,
         required: true,
-        max: 11
+        select: false
     },
     whatsapp: {
         type: Boolean,
@@ -25,7 +26,7 @@ const userSchema = new mongoose.Schema({
         type: Number,
         required: true,
         select: false,
-        max: 11
+        unique: true
     },
     bairro: {
         type: String,
@@ -33,7 +34,8 @@ const userSchema = new mongoose.Schema({
     }, 
     pix: {
         type: String,
-        required: true
+        required: true,
+        select: false
     },
     termosDeUso: {
         type: Boolean,
