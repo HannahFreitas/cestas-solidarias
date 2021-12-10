@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({
+    _id: mongoose.Schema.Types.ObjectId,
     name: {
         type: String,
         required: true
@@ -29,6 +30,15 @@ const userSchema = new mongoose.Schema({
     pix: {
         type: String,
         required: true
+    },
+    termosDeUso: {
+        type: Boolean,
+        required: true
+    },
+    criadoEm: {
+        type: Date,
+        required: true,
+        default: new Date
     }
 })
 
