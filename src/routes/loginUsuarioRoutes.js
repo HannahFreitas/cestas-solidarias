@@ -7,6 +7,8 @@ routes.get("/", checkAuth, controller.getAll);
 routes.get("/private", controller.getPrivate);
 routes.post("/register", controller.register);
 routes.post('/login', controller.login);
+routes.put("/update/:id", controller.updateLogin);
+routes.delete("/delete/:id", controller.deleteLogin);
 
 
 
