@@ -11,7 +11,22 @@ const getAll = async(req, res) => {
     }
 }
 
+const createUsers = async(req, res) => {
+    try {
+        const users = await new Users(req.body);
+        const saveUsers = await users.save();
+
+        res.status(201).json({
+            message: "Cadastro realizado com sucesso.",
+            saveUsers
+        })
+    } catch (error) {
+        res.status(500).json({message: error.message})
+    }
+}
+
 
 module.exports = {
-    getAll
+    getAll,
+    createUsers
 }

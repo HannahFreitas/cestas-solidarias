@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({
-    _id: mongoose.Schema.Types.ObjectId,
+    id: mongoose.Schema.Types.ObjectId,
     name: {
         type: String,
         required: true
@@ -14,7 +14,8 @@ const userSchema = new mongoose.Schema({
     },
     celular: {
         type: Number,
-        required: true
+        required: true,
+        max: 11
     },
     whatsapp: {
         type: Boolean,
@@ -23,7 +24,8 @@ const userSchema = new mongoose.Schema({
     cpf: {
         type: Number,
         required: true,
-        select: false
+        select: false,
+        max: 11
     },
     bairro: {
         type: String,
@@ -38,7 +40,7 @@ const userSchema = new mongoose.Schema({
         required: true,
         default: false
     },
-    informaçao: {
+    informacao: {
         type: String,
         required: true,
         min: 100,
