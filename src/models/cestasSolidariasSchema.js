@@ -35,7 +35,8 @@ const userSchema = new mongoose.Schema({
     },
     termosDeUso: {
         type: Boolean,
-        required: true
+        required: true,
+        default: false
     },
     criadoEm: {
         type: Date,
