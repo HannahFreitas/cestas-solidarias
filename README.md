@@ -25,7 +25,7 @@
 
 <br>
 
-<p align="justify">O projeto é uma API REST que permite que pessoas em situação de vulnerabilidade social, consigam se cadastrar, informando seus dados e descrevendo informações sobre a sua situação atual, de forma objetiva, para que haja a conecxões com pessoas ou projetos sociais, que estejam procurando formas de ajudar, contendo assim dois cadastros, um para os beneficiários, e outro para os doadores que querem fazer uma busca de quem necessita ser beneficiado, tendo assim uma opção de login para estas que buscam ajudar, conseguingo acesso as informações de quem está cadastrado no sistema.
+<p align="justify">O projeto é uma API REST que permite que pessoas em situação de vulnerabilidade social, consigam se cadastrar, informando seus dados e descrevendo informações sobre a sua situação atual, de forma objetiva, para que haja a conexões com pessoas ou projetos sociais, que estejam procurando formas de ajudar, contendo assim dois cadastros, um para os beneficiários, e outro para os doadores que querem fazer uma busca de quem necessita ser beneficiado, tendo assim uma opção de login para estas que buscam ajudar, conseguingo acesso as informações de quem está cadastrado no sistema.
 
 <p align="justify">A interface é um CRUD completo integrado com o banco de dados, onde é possível listar os usuários, tanto que precisam de auxílio e quem pode dar este auxílio, cadastrar novos usuários, atualizar os dados e deletar o cadastro do usuário. Tudo isso passando por uma autenticação, gerando um token que permite ou não o acesso as pessoas que estarão no sistema.
 
