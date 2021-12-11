@@ -116,7 +116,7 @@ const deleteLogin = async(req, res) => {
         }
 
         await users.delete();
-        return res.status(200).json({ message: "Cadastro deletado com sucesso." })
+        return res.status(204).json({ message: "Cadastro deletado com sucesso." })
     } catch (error) {
         return res.status(500).json({ message: error.message })
     }

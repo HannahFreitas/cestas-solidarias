@@ -105,13 +105,13 @@
     "/users/update/:id": {
         "put": {
             "description": "Alterar usuários pelo ID",
-            "summary": "Listar os usuários por ID",
+            "summary": "Altera os usuários por ID",
             "tags": ["Usuários Ajudados"],
             "parameters": [
                 {
-                    "name": "Lista de Usuários por ID",
+                    "name": "Alterar de Usuários por ID",
                     "in": "path",
-                    "busca": "Todos os usuários por ID",
+                    "busca": "Altera os usuários por ID",
                     "required": true
                 }
             ],
