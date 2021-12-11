@@ -279,38 +279,38 @@ Estou aberta a opiniões, caso queiram contribuir com meu projeto.
 
 <p align="justify"> Após toda essa minha decisão, conheci a reprograma sem querer, e decidi tentar como quem não quer nada, não muito confiante, pois ainda não acredita ser capaz de ser uma (como dia Andréa), reprogramer. Me inscrevi e minha maior surpresa foi a aprovação no meio de tanta candidatura e no meio de tanta gente boa. Logo de início, quis criar um vínculo forte com a minha turma, pois queria viver a experiência completa de ser uma reprogamer, e assim o fiz, e aqui vem os meus agradecimentos, "SPOILER": A lista vai ser longa! 
 
-[Amanda Santos](https://www.linkedin.com/in/amandasantos24/)
-[Ana Carolliny](https://www.linkedin.com/in/anacarolliny/)
-[Andrea Carvalho](linkedin.com/in/andrea-carvalho-/)
-[Camila Vicente](https://www.linkedin.com/in/lamivicente/)
-[Clarice Hatischvili](https://www.linkedin.com/in/claricemha/)
-[Daniele Vilares](https://www.linkedin.com/in/daniele-vilares-9ab876223/)
-[Darielly Santos](https://www.linkedin.com/in/darielly-santos/)
-[Deborah Gomes](https://www.linkedin.com/in/deborahgomes123/)
-[Edilaine Silva](https://www.linkedin.com/in/edilaine-silva-a683a1105/)
-[Erika Freitas](https://www.linkedin.com/in/%C3%A9rika-de-freitas-b63331ba/)
-[Estefanya Alves](https://www.linkedin.com/in/estefanya-alves/)
-[Ester Silva](https://www.linkedin.com/in/ester-silvade/)
-[Ingrydt Alcântara](https://www.linkedin.com/in/ingrydtalc%C3%A2ntara/)
-[Jaciara Feio](https://www.linkedin.com/in/jaciara-feio/)
-[Janaina Lopes](https://www.linkedin.com/in/janainalopes-dev/)
-[Jeniffer Alves](https://www.linkedin.com/in/jeniffer-a-472230107/)
-[Julia Borges](https://www.linkedin.com/in/juliarebeccaborges/)
-[Juliana Santana](https://www.linkedin.com/in/juliana-santana-53a630b9/)
-[Kamila Lima](https://www.linkedin.com/in/kamila-lima-14299b150/)
-[Kelly Vieira](https://www.linkedin.com/in/kelly-vieira/)
-[Letícia Desiderio](https://www.linkedin.com/in/leticiardesiderio/)
-[Mabiá - Priscila Duarte](https://www.linkedin.com/in/prisciladuarte1993/)
-[Rafaela Siglyane](https://www.linkedin.com/in/siglyane/)
-[Raissa Nepomuceno](https://www.linkedin.com/in/ra%C3%ADssa-nepomuceno/)
-[Ravena Maia](https://www.linkedin.com/in/ravena-maia-367a45162/)
-[Samila Rodrigues](https://www.linkedin.com/in/samila-rodrigues/)
-[Samara Silva](https://www.linkedin.com/in/samarac-silva/)
-[Talita Rosa](https://www.linkedin.com/in/talitarosamistica/)
-[Victoria Rezende](https://www.linkedin.com/in/victoriarezende253/)
-[Victoria Paiva](https://www.linkedin.com/in/victoriarsp/)
-[Xênia Barreto](https://www.linkedin.com/in/xeniabarreto/)
-[Yara Viana](https://www.linkedin.com/in/yaralviana/)
+-[Amanda Santos](https://www.linkedin.com/in/amandasantos24/)
+-[Ana Carolliny](https://www.linkedin.com/in/anacarolliny/)
+-[Andrea Carvalho](linkedin.com/in/andrea-carvalho-/)
+-[Camila Vicente](https://www.linkedin.com/in/lamivicente/)
+-[Clarice Hatischvili](https://www.linkedin.com/in/claricemha/)
+-[Daniele Vilares](https://www.linkedin.com/in/daniele-vilares-9ab876223/)
+-[Darielly Santos](https://www.linkedin.com/in/darielly-santos/)
+-[Deborah Gomes](https://www.linkedin.com/in/deborahgomes123/)
+-[Edilaine Silva](https://www.linkedin.com/in/edilaine-silva-a683a1105/)
+-[Erika Freitas](https://www.linkedin.com/in/%C3%A9rika-de-freitas-b63331ba/)
+-[Estefanya Alves](https://www.linkedin.com/in/estefanya-alves/)
+-[Ester Silva](https://www.linkedin.com/in/ester-silvade/)
+-[Ingrydt Alcântara](https://www.linkedin.com/in/ingrydtalc%C3%A2ntara/)
+-[Jaciara Feio](https://www.linkedin.com/in/jaciara-feio/)
+-[Janaina Lopes](https://www.linkedin.com/in/janainalopes-dev/)
+-[Jeniffer Alves](https://www.linkedin.com/in/jeniffer-a-472230107/)
+-[Julia Borges](https://www.linkedin.com/in/juliarebeccaborges/)
+-[Juliana Santana](https://www.linkedin.com/in/juliana-santana-53a630b9/)
+-[Kamila Lima](https://www.linkedin.com/in/kamila-lima-14299b150/)
+-[Kelly Vieira](https://www.linkedin.com/in/kelly-vieira/)
+-[Letícia Desiderio](https://www.linkedin.com/in/leticiardesiderio/)
+-[Mabiá - Priscila Duarte](https://www.linkedin.com/in/prisciladuarte1993/)
+-[Rafaela Siglyane](https://www.linkedin.com/in/siglyane/)
+-[Raissa Nepomuceno](https://www.linkedin.com/in/ra%C3%ADssa-nepomuceno/)
+-[Ravena Maia](https://www.linkedin.com/in/ravena-maia-367a45162/)
+-[Samila Rodrigues](https://www.linkedin.com/in/samila-rodrigues/)
+-[Samara Silva](https://www.linkedin.com/in/samarac-silva/)
+-[Talita Rosa](https://www.linkedin.com/in/talitarosamistica/)
+-[Victoria Rezende](https://www.linkedin.com/in/victoriarezende253/)
+-[Victoria Paiva](https://www.linkedin.com/in/victoriarsp/)
+-[Xênia Barreto](https://www.linkedin.com/in/xeniabarreto/)
+-[Yara Viana](https://www.linkedin.com/in/yaralviana/)
 
 **Não encontrei o Linkedin de todas, por isso atualizarei todas no futuro**
 
@@ -318,20 +318,20 @@ Estou aberta a opiniões, caso queiram contribuir com meu projeto.
 
 <p align="justify"> Bem, agradeço quem chegou até aqui, e teve a paciência de ler tudo que escrevi, agora que agradecer as mulheres maravilhosas da minha vida, que me orientaram, que me mostraram o caminho e principalmente que: LUGAR DE MULHER É ONDE ELA QUISER! Obrigada, a todas vocês que fizeram de tudo para nos mostrar como seguir, ser forte, não desistir e o não menos importante, como codar! Aqui vai um pequena lista das minhas deusas possuidora de todo conhecimento: 
 
-[Raquel Andrade](https://www.linkedin.com/in/raquelbennington/) - A pessoa que realmente facilita minha vida
-[Jéssica Osko](https://www.linkedin.com/in/jessica-osko/) - Essa mulher, é aquela que é literalmente sua sombra, ela sempre está de observando e te ajudando mesmo sem você ter nem ideia
-[Tabita Barbosa](https://www.linkedin.com/in/tabita-barbosa/) - Primeira professora e inesquecível né? Quem esquece o primeiro erro com git? KKKKKKKK
-[Paula Allemand](https://www.linkedin.com/in/paulaallemand/) - Além de me proporcionar um workshop incrível, ainda foi uma professora maravilhosa no dia a dia.
-[Beatriz Ramerindo](https://www.linkedin.com/in/beatriz-ramerindo/) - Achei que depois que tu mostrasse o banco de dados eu iria surtar, mas seguimos aqui no amor intacto.
-[Lilit Bandeira](https://www.linkedin.com/in/lilitbandeira/) - Async e Await até hoje está nos meus pesadelos, mas graças a você fez todo o sentido do mundo!!
-[Tassila Bomfim](https://www.linkedin.com/in/tassilabomfim/) - Primeiro projeto guiado a gente nunca esquece, nem parece que tu tava nervosa, arrasa sempre!
+-[Raquel Andrade](https://www.linkedin.com/in/raquelbennington/) - A pessoa que realmente facilita minha vida
+-[Jéssica Osko](https://www.linkedin.com/in/jessica-osko/) - Essa mulher, é aquela que é literalmente sua sombra, ela sempre está de observando e te ajudando mesmo sem você ter nem ideia
+-[Tabita Barbosa](https://www.linkedin.com/in/tabita-barbosa/) - Primeira professora e inesquecível né? Quem esquece o primeiro erro com git? KKKKKKKK
+-[Paula Allemand](https://www.linkedin.com/in/paulaallemand/) - Além de me proporcionar um workshop incrível, ainda foi uma professora maravilhosa no dia a dia.
+-[Beatriz Ramerindo](https://www.linkedin.com/in/beatriz-ramerindo/) - Achei que depois que tu mostrasse o banco de dados eu iria surtar, mas seguimos aqui no amor intacto.
+-[Lilit Bandeira](https://www.linkedin.com/in/lilitbandeira/) - Async e Await até hoje está nos meus pesadelos, mas graças a você fez todo o sentido do mundo!!
+-[Tassila Bomfim](https://www.linkedin.com/in/tassilabomfim/) - Primeiro projeto guiado a gente nunca esquece, nem parece que tu tava nervosa, arrasa sempre!
 
 **Queria marcar as outras, porém não estou encontrando Linkedin, então Analu, Edi, Keyla, amo vocês na mesma proporção que amo todas que citei, e sou extremamente grata**
 
 <p align="justify"> E quero agradecer a todas as monitoras que tiverem presente nessa trajetória pra nos auxiliar, mas quero agradecer a uma em especial, pois sempre se colocou a minha disposição, sempre me ajudou da melhor forma que poderia, eu me guiei pelo projeto dela e além de tudo, é super inteligente, RECRUTADORES, SE ELA NÃO TIVER EMPREGADA OU MESMO SE TIVER, LUTEM POR ELA, ESSA É A OPORTINUDADE DE VOCÊS!!!! Obrigada, Bete, por tudo e pra você, além de link do Linkedin, em especial, dedicarei o meu projeto ao seu, OBRIGADA: 
 
-[Elisabete Santos](https://www.linkedin.com/in/elisabete-a-santos/)
-[Estante de Histórias](https://github.com/elisabetealves/reprograma-estante-de-historias)
+-[Elisabete Santos](https://www.linkedin.com/in/elisabete-a-santos/)
+-[Estante de Histórias](https://github.com/elisabetealves/reprograma-estante-de-historias)
  
 
 ## 📝 Licença
