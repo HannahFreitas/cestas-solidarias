@@ -2,11 +2,16 @@ require("dotenv-safe").config();
 const express = require("express");
 const cors = require("cors");
 const db = require("./database/mongoConfig");
+const  swaggerUi  =  require('swagger-ui-express')  
+const  swaggerDocument  =  require('./swagger.json')
+
 
 const app = express();
 
 app.use(express.json());
 app.use(cors());
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 
 const routesCestas = require("./routes/cestasSolidariasRoutes");
@@ -16,6 +21,12 @@ const index = require("./routes/indexRoutes");
 app.use("/users", routesCestas);
 app.use("/helpers", routesLogin);
 app.use("/", index);
+
+app.get("/terms", (req, res) => {
+    return res.json({
+        message: "Termos de Serviço"
+    })
+})
 
 db.connect();
 

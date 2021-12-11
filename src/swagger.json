@@ -1,0 +1,234 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API de cadastro para pessoas em vulnerabilidade social",
+        "description": "Essa API tem como objetivo fazer o cadastro de pessoas que precisam de auxílio, por estar passando necessidades.",
+        "termsOfService": "localhost:9095/terms/",
+        "contact": {
+            "email": "hannahcassia@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url":"localhost:9095/",
+            "description": "API Cestas Solidárias"
+    }
+],
+"tags": [
+    {
+        "name": "Usuários Ajudados",
+        "description": "Manipulação das Rotas dos Usuários Ajudados"
+    },
+    {
+        "name": "Usuários Ajudantes",
+        "description": "Manipulação das Rotas dos Usuários Ajudantes"
+    }
+],
+"paths": {
+    "/users/create": {
+        "post": {
+            "summary": "Cadastro de Usuários Ajudados",
+            "description": "Essa rota será responsável por cadastrar um novo usuário que precisa de ajuda",
+            "tags": ["Usuários Ajudados"],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/Usuários Ajudados"
+                        },
+                        "example": {
+                            "Usuários Ajudados": {
+                                "value": {
+                                    "_id": "61b3c7936897b5137880ba5a",
+                                    "name": "Leandro Henrique",
+                                    "email": "leandohq@hotmail.com",
+                                    "celular": 81998526547,
+                                    "whatsapp": true,
+                                    "bairro": "cordeiro",
+                                    "pix": "81998526547",
+                                    "termosDeUso": true,
+                                    "informacao": "Necessito de doações pois estou desempregado e tenho família para alimentar",
+                                    "criadoEm": "2021-12-10T21:33:07.344Z"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "500": {
+                    "description": "Internal Server Error"
+                },
+                "200": {
+                    "description": "OK",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Usuários Ajudados"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/users/name": {
+        "get": {
+            "description": "Listar usuários pelo nome",
+            "summary": "Listar os usuários por nome",
+            "tags": ["Usuários Ajudados"],
+            "parameters": [
+                {
+                    "name": "Lista de Usuários por nome",
+                    "in": "query",
+                    "busca": "Todos os usuários por nome",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Usuários Ajudados"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/users/update/:id": {
+        "put": {
+            "description": "Alterar usuários pelo ID",
+            "summary": "Listar os usuários por ID",
+            "tags": ["Usuários Ajudados"],
+            "parameters": [
+                {
+                    "name": "Lista de Usuários por ID",
+                    "in": "path",
+                    "busca": "Todos os usuários por ID",
+                    "required": true
+                }
+            ],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/Usuários Ajudados"
+                        },
+                        "example": {
+                            "Usuários Ajudados": {
+                                "value": {
+                                    "_id": "61b3c7936897b5137880ba5a",
+                                    "name": "Leandro Henrique",
+                                    "email": "leandohq35@hotmail.com",
+                                    "celular": 81998526547,
+                                    "whatsapp": true,
+                                    "bairro": "linha do tiro",
+                                    "pix": "81998526547",
+                                    "termosDeUso": true,
+                                    "informacao": "Necessito de doações pois estou desempregado e tenho família para alimentar",
+                                    "criadoEm": "2021-12-10T21:33:07.344Z"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Usuários Ajudados"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+},
+"components": {
+    "schemas": {
+        "Usuários Ajudados": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "celular": {
+                    "type": "number"
+                },
+                "whatsapp": {
+                    "type": "boolean"
+                },
+                "cpf": {
+                    "type": "number"
+                },
+                "bairro": {
+                    "type": "string"
+                },
+                "pix": {
+                    "type": "string"
+                },
+                "termosDeUso": {
+                    "type": "boolean"
+                },
+                "informacao": {
+                    "type": "string"
+                },
+                "criadoEm": {
+                    "type": "string"
+                }
+            }
+        },
+        "Usuários Ajudantes": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "cpf": {
+                    "type": "number"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type":"string"
+                },
+                "termosDeUso": {
+                    "type": "boolean"
+                },
+                "criadoEm": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "securitySchemes": {
+        "bearerAuth": {
+            "type": "http",
+            "scheme": "bearer",
+            "bearerFormat": "JWT"
+        }
+    }
+}
+}

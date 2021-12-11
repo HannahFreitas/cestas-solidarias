@@ -4,6 +4,7 @@ const controller = require("../controller/cestasSolidariasController");
 
 routes.get("/", controller.getAll);
 routes.get("/private", controller.getPrivate);
+routes.get("/name", controller.getUsersByName);
 routes.post("/create", controller.createUsers);
 routes.put("/update/:id", controller.updateUsers);
 routes.delete("/delete/:id", controller.deleteUsers);

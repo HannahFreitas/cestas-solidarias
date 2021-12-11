@@ -21,6 +21,11 @@ const loginSchema = new mongoose.Schema({
         type: String,
         required: true,
         select: false
+    },
+    termosDeUso: {
+        type: String,
+        required:true,
+        default: false
     }
 }, { timestamps: true })
 

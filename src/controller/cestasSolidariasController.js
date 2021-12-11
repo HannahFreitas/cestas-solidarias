@@ -20,6 +20,13 @@ const getAll = async(req, res) => {
     }
 }
 
+const getUsersByName = async (req, res) => {
+    const name = req.query.name;
+	await Users.find({ name: name })
+
+    return res.status(200).send(Users)
+}
+
 const createUsers = async(req, res) => {
     try {
         const users = await new Users(req.body);
@@ -84,6 +91,7 @@ module.exports = {
     getAll,
     createUsers,
     getPrivate,
+    getUsersByName,
     updateUsers,
     deleteUsers
 }
