@@ -132,7 +132,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 * local: http://localhost:9095
 
-* Heroku: 
+* Heroku: https://cestas-solidarias.herokuapp.com/
 
     * Utilize o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download/) para para chamar e testar os endpoints da API localmente ou via Heroku
 
