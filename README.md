@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="justify">API desenvolvida como Projeto Final com o auxílio da professora Paula Allemand para a conclusão do curso de Backend [{Reprograma}](https://reprograma.com.br/)
+ API desenvolvida como Projeto Final com o auxílio da professora Paula Allemand para a conclusão do curso de Backend  [{Reprograma}](https://reprograma.com.br/)
 
 <p align="justify">Este projeto nasceu da minha vontade imensa de ajudar as pessoas. Nessa pandemia, observei que os pedidos de ajuda por meio das redes sociais, aumentaram em demasiado. Como já tinha a ideia de construir um projeto que me abrisse oportunidades para construir uma ONG no futuro, então aproveitei esse momento.
 
