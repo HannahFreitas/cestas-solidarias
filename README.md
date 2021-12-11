@@ -327,8 +327,11 @@ Estou aberta a opiniões, caso queiram contribuir com meu projeto.
 - [Beatriz Ramerindo](https://www.linkedin.com/in/beatriz-ramerindo/) - Achei que depois que tu mostrasse o banco de dados eu iria surtar, mas seguimos aqui no amor intacto.
 - [Lilit Bandeira](https://www.linkedin.com/in/lilitbandeira/) - Async e Await até hoje está nos meus pesadelos, mas graças a você fez todo o sentido do mundo!!
 - [Tassila Bomfim](https://www.linkedin.com/in/tassilabomfim/) - Primeiro projeto guiado a gente nunca esquece, nem parece que tu tava nervosa, arrasa sempre!
+- [Edlaine Pontes](https://www.linkedin.com/in/edlaine-pontes/) - Nos mostrando a base com o seu projeto incrível.
+- [Keyla Rosa](https://www.linkedin.com/in/keyla-rosa-34abb190/) - Que nos deu a base de toda uma lógica e foi sensacional.
+- [Analu](https://www.linkedin.com/in/sampaioaanaluiza/) - Analu, obrigada pela paciência de ensinar um CRUD do zero, graças a você o CRUD ta ai!
 
-**Queria marcar as outras, porém não estou encontrando Linkedin, então Analu, Edi, Keyla, amo vocês na mesma proporção que amo todas que citei, e sou extremamente grata**
+**Sou extremamente grata a vocês e amo cada uma de vocês da minha forma louca, obrigada!**
 
 <p align="justify"> E quero agradecer a todas as monitoras que tiverem presente nessa trajetória pra nos auxiliar, mas quero agradecer a uma em especial, pois sempre se colocou a minha disposição, sempre me ajudou da melhor forma que poderia, eu me guiei pelo projeto dela e além de tudo, é super inteligente, RECRUTADORES, SE ELA NÃO TIVER EMPREGADA OU MESMO SE TIVER, LUTEM POR ELA, ESSA É A OPORTINUDADE DE VOCÊS!!!! Obrigada, Bete, por tudo e pra você, além de link do Linkedin, em especial, dedicarei o meu projeto ao seu, OBRIGADA: 
 
