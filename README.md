@@ -11,9 +11,11 @@
 
 <br>
 
-<p align="justify">Este projeto nasceu da minha vontade imensa de ajudar as pessoas. Nessa pandemia, observei que os pedidos de ajuda por meio das redes sociais, aumentaram em demasiado. Como já tinha a ideia de construir um projeto que me abrisse oportunidades para construir uma ONG no futuro, aproveitei desta oportunidade.
+<p align="justify">API desenvolvida como Projeto Final com o auxílio da professora Paula Allemand para a conclusão do curso de Backend [{Reprograma}](https://reprograma.com.br/)
 
-<p align="justify">Apesar do aumento da desigualdade e do desemprego, há pessoas que também se disponibilizam a ajudar, então o objetivo principal da construção dessa API, é a conexão dessas pessoas que precisam de ajuda, com as pessoas que têm a possibilidade de ajudar. Por meio de doações de cestas básicas, ou até mesmo, transfêrencia bancária via pix. Sempre com a preocupação de proteção dos dados de quem busca ajuda e de quem busca ajudar.
+<p align="justify">Este projeto nasceu da minha vontade imensa de ajudar as pessoas. Nessa pandemia, observei que os pedidos de ajuda por meio das redes sociais, aumentaram em demasiado. Como já tinha a ideia de construir um projeto que me abrisse oportunidades para construir uma ONG no futuro, então aproveitei esse momento.
+
+<p align="justify">Apesar do aumento da desigualdade e do desemprego, há pessoas que também se disponibilizam a ajudar, então o objetivo principal da construção dessa API, é a conexão dessas pessoas que precisam de ajuda, com as pessoas que têm a possibilidade de ajudar. Por meio de doações de cestas básicas, ou até mesmo, transfêrencia bancária via pix. Sempre com a preocupação de proteção dos dados de todos os envolvidos.
 
 <p align="justify">Com o pensamento no futuro de se tornar um projeto grande e viável para a criação de um espaço seguro, que essas pessoas em situação de vulnerabilidade social possam ter oportunidades melhor, de ajuda de todas os tipos, e não só de doações, mas com uma possibilidade de contratações, como implementação futura.
 
@@ -23,11 +25,11 @@
 
 <br>
 
-<p align="justify">O projeto é uma API REST que permite que pessoas em situação de vulnerabilidade social, consiga se cadastrar, informando seus dados e descrevendo informações sobre a sua situação atual, de forma objetiva, para que haja a conecxões com pessoas ou projetos sociais, que estejam procurando formas de ajudar, contendo assim dois cadastros, um para as pessoas que precisam de ajuda, outro para as pessoas que podem ajudar e querem fazer uma busca de quem precisa, tendo assim uma opção de login para estas que buscam ajudar, para assim conseguir acesso as informações de quem está cadastrado no sistema.
+<p align="justify">O projeto é uma API REST que permite que pessoas em situação de vulnerabilidade social, consigam se cadastrar, informando seus dados e descrevendo informações sobre a sua situação atual, de forma objetiva, para que haja a conecxões com pessoas ou projetos sociais, que estejam procurando formas de ajudar, contendo assim dois cadastros, um para os beneficiários, e outro para os doadores que querem fazer uma busca de quem necessita ser beneficiado, tendo assim uma opção de login para estas que buscam ajudar, conseguingo acesso as informações de quem está cadastrado no sistema.
 
 <p align="justify">A interface é um CRUD completo integrado com o banco de dados, onde é possível listar os usuários, tanto que precisam de auxílio e quem pode dar este auxílio, cadastrar novos usuários, atualizar os dados e deletar o cadastro do usuário. Tudo isso passando por uma autenticação, gerando um token que permite ou não o acesso as pessoas que estarão no sistema.
 
-API desenvolvida como Projeto Final para a conclusão do curso de Backend [{Reprograma}](https://reprograma.com.br/)
+
   
 <br>
 
