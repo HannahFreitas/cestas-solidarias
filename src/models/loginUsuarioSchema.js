@@ -6,6 +6,10 @@ const loginSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    nickname: {
+        type: String,
+        required:true
+    },
     cpf: {
         type: Number,
         required: true,

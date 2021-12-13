@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "API de cadastro para pessoas em vulnerabilidade social",
+        "title": "API de cadastro para pessoas em situação de vulnerabilidade social",
         "description": "Essa API tem como objetivo fazer o cadastro de pessoas que precisam de auxílio, por estar passando necessidades.",
         "termsOfService": "localhost:9095/terms/",
         "contact": {
@@ -41,7 +41,8 @@
                             "Usuários Ajudados": {
                                 "value": {
                                     "_id": "61b3c7936897b5137880ba5a",
-                                    "name": "Leandro Henrique",
+                                    "name": "Leandro",
+                                    "nickname": "Henrique",
                                     "email": "leandohq@hotmail.com",
                                     "celular": 81998526547,
                                     "whatsapp": true,
@@ -81,7 +82,7 @@
             "tags": ["Usuários Ajudados"],
             "parameters": [
                 {
-                    "name": "Lista de Usuários por nome",
+                    "name": "name",
                     "in": "query",
                     "busca": "Todos os usuários por nome",
                     "required": true
@@ -125,7 +126,8 @@
                             "Usuários Ajudados": {
                                 "value": {
                                     "_id": "61b3c7936897b5137880ba5a",
-                                    "name": "Leandro Henrique",
+                                    "name": "Leandro",
+                                    "nickname": "Henrique",
                                     "email": "leandohq35@hotmail.com",
                                     "celular": 81998526547,
                                     "whatsapp": true,
@@ -154,6 +156,34 @@
                 }
             }
         }
+    },
+    "/users/delete/:id": {
+        "delete": {
+            "description": "Deletar usuário",
+            "summary": "Altera os usuários por ID",
+            "tags": ["Usuários Ajudados"],
+            "parameters": [
+                {
+                    "name": "Deletar Usuários por ID",
+                    "in": "path",
+                    "busca": "Deleta os usuários por ID",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "204": {
+                    "description": "No content",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Usuários Ajudados"
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 },
 "components": {
@@ -166,6 +196,9 @@
                 },
                 "name": {
                     "type": "string"
+                },
+                "nickname": {
+                    "type":"string"
                 },
                 "email": {
                     "type": "string"
@@ -204,6 +237,9 @@
                 },
                 "name": {
                     "type": "string"
+                },
+                "nickname": {
+                    "type":"string"
                 },
                 "cpf": {
                     "type": "number"

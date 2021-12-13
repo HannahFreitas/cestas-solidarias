@@ -37,6 +37,10 @@ const register = async(req, res) => {
 
         newUser.password = passwordHashed;
 
+        if(newUser.termosDeuso == false) {
+            res.status(204).json({message: "Sua conta não pode ser criada, pois precisamos que aceite os termos de uso!"});
+        }
+
         const saveUser = await newUser.save();
         res.status(201).json({
             messagem: "Pessoa cadastrada com sucesso",
@@ -85,8 +89,10 @@ const updateLogin = async (req, res) => {
         if (updateUser) {
           
             updateUser.name = req.body.name || updateUser.name
+            updateUser.nickname = req.body.nickname || updateUser.nickname
             updateUser.email = req.body.email || updateUser.email
             updateUser.password = req.body.password || updateUser.password
+            updateUser.termosDeUso = req.body.termosDeUso || updateUser.termosDeUso
             
             const passwordHashed = await hashPassword(updateUser.password, res);
 

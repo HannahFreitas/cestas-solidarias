@@ -22,14 +22,18 @@ const getAll = async(req, res) => {
 
 const getUsersByName = async (req, res) => {
     const name = req.query.name;
-	await Users.find({ name: name })
+	const users = await Users.find({ name: name });
 
-    return res.status(200).send(Users)
+    return res.status(200).send(users);
 }
 
 const createUsers = async(req, res) => {
     try {
         const users = await new Users(req.body);
+
+        if(users.termosDeuso == false) {
+            res.status(204).json({message: "Seu cadastro não será criado, pois é necessário aceitar os termos de uso!"});
+        }
         const saveUsers = await users.save();
         
 
@@ -48,12 +52,14 @@ const updateUsers = async (req, res) => {
         if (updateUser) {
           
             updateUser.name = req.body.name || updateUser.name
+            updateUser.nickname = req.body.nickname || updateUser.nickname
             updateUser.email = req.body.email || updateUser.email
             updateUser.celular = req.body.celular || updateUser.celular
             updateUser.whatsapp = req.body.whatsapp || updateUser.whatsapp
             updateUser.bairro = req.body.bairro || updateUser.bairro
             updateUser.pix = req.body.pix || updateUser.pix
             updateUser.informacao = req.body.informacao || updateUser.informacao
+            updateUser.termosDeuso = req.body.termosDeuso ||updateUser.termosDeuso
 
             const saveUser = await updateUser.save();
             res.status(200).json({
@@ -76,6 +82,10 @@ const deleteUsers = async(req, res) => {
 
         if (users == null) {
             return res.status(404).json({ message: "Usuário não encontrado." })
+        }
+        if(users.termosDeuso == false) {
+            await users.delete();
+            return res.status(204).json({message:" Seu cadastro foi deletado, pois não teve o aceite dos termos de uso!"});
         }
 
         await users.delete();
