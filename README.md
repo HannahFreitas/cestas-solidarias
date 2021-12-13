@@ -217,7 +217,7 @@ Swagger - Heroku:
 ```
  <br>
 
- ## ✅ Dados para Collection Login
+ ## ✅ Dados para Collection Login:
 
 - id: gerado automaticamente 
 - nome: texto e obrigatório
