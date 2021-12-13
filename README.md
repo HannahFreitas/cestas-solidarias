@@ -3,7 +3,7 @@
     <p align="center">Projeto Final {Reprograma}<p>
 </h1>
 <p align="center">
-<img src="./assets/cestas-solidarias.gif" width="400" height="200"/>
+<img src="./assets/cestas-solidarias.gif" width="400" height="300"/>
 </p>
 <br>
 
