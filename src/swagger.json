@@ -160,7 +160,7 @@
     "/users/delete/:id": {
         "delete": {
             "description": "Deletar usuário",
-            "summary": "Altera os usuários por ID",
+            "summary": "Deletar os usuários por ID",
             "tags": ["Usuários Ajudados"],
             "parameters": [
                 {

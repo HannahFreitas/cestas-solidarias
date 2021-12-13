@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const { hashPassword } = require('../helpers/authCestasSolidarias');
 
+
 const getPrivate = async(req, res) => {
     try {
         const users = await Login.find();
@@ -19,6 +20,29 @@ const getAll = async(req, res) => {
     } catch (error) {
         res.status(500).json({message: error.message})
     }
+}
+
+const getById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const users = await Login.findById(id);
+
+        if (users == undefined || id == " ") {
+            return res.status(404).json({
+                message: "ID não encontrado!"
+            })
+        }
+        return res.status(200).json(users);
+    } catch (error) {
+        return res.status(500).json({ message: error.message })
+    }
+}
+
+const getUsersByName = async (req, res) => {
+    const name = req.query.name;
+	const users = await Login.find({ name: name });
+
+    return res.status(200).send(users);
 }
 
 const register = async(req, res) => {
@@ -132,6 +156,8 @@ const deleteLogin = async(req, res) => {
 module.exports = {
     getAll,
     getPrivate,
+    getById,
+    getUsersByName,
     register,
     login,
     updateLogin,

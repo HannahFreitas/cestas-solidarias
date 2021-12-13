@@ -20,6 +20,22 @@ const getAll = async(req, res) => {
     }
 }
 
+const getById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const users = await Users.findById(id)
+
+        if (users == undefined || id == " ") {
+            return res.status(404).json({
+                message: "ID não localizado!"
+            })
+        }
+        return res.status(200).json(users)
+    } catch (error) {
+        return res.status(500).json({ message: error.message })
+    }
+}
+
 const getUsersByName = async (req, res) => {
     const name = req.query.name;
 	const users = await Users.find({ name: name });
@@ -102,6 +118,7 @@ module.exports = {
     createUsers,
     getPrivate,
     getUsersByName,
+    getById,
     updateUsers,
     deleteUsers
 }
