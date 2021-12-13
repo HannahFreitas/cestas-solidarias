@@ -187,6 +187,7 @@ Swagger - Heroku:
 
 - id: gerado automaticamente 
 - nome: texto e obrigatório
+- sobrenome: texto e obrigatório
 - email: texto e obrigatório 
 - celular: número e obrigatório
 - whatsapp: booleano e obrigatório
@@ -203,15 +204,15 @@ Swagger - Heroku:
 
 ```jsx
 {
-    "name": "Henrique Neves",
-    "email": "henriqueneves2@hotmail.com",
-    "celular": 81989697427,
+    "_id": "61b780fa0fd8f51ac598b64b",
+    "name": "Henrique",
+    "nickname": "Neves",
     "whatsapp": true,
-    "cpf": 11111111159,
     "bairro": "cordeiro",
-    "pix": "(81)989697427",
     "termosDeUso": true,
-    "informacao": "Três filhos, desempregado, sem alimentos em casa, necessitando urgente de ajuda com cestas básicas ou qualquer tipo de doação"
+    "informacao": "Três filhos, desempregado, sem alimentos em casa, necessitando urgente de ajuda com cestas básicas ou qualquer tipo de doação",
+    "criadoEm": "2021-12-13T17:19:43.701Z",
+    "__v": 0
 }
 ```
  <br>
@@ -220,6 +221,7 @@ Swagger - Heroku:
 
 - id: gerado automaticamente 
 - nome: texto e obrigatório
+- sobrenome: texto e obrigatório
 - cpf: número e obrigatório
 - email: texto e obrigatório
 - password: texto e obrigatório
@@ -234,13 +236,15 @@ Swagger - Heroku:
 {
     "messagem": "Pessoa cadastrada com sucesso",
     "saveUser": {
-        "name": "Leonardo Santos",
-        "cpf": 22233344455,
-        "email": "leosantos@gmail.com",
-        "password": "$2b$10$WzaS5slVUC2HuQmKx/rVOuOYPIqNpO4nYCSntnJfYZEL3ig4O1s1G",
-        "_id": "61b3c7936897b5137880ba5a",
-        "createdAt": "2021-12-10T21:33:07.344Z",
-        "updatedAt": "2021-12-10T21:33:07.344Z",
+        "name": "Vitória",
+        "nickname": "Leite",
+        "cpf": 33355566788,
+        "email": "vicsleite@gmail.com",
+        "password": "$2b$10$n9jsDR1jjcN3Gpk8.EDXDeTOHwKCedTERQQyWh38jgCoZlwixFbq6",
+        "termosDeUso": "false",
+        "_id": "61b7a3a8a02e42b50f53a427",
+        "createdAt": "2021-12-13T19:48:56.683Z",
+        "updatedAt": "2021-12-13T19:48:56.683Z",
         "__v": 0
     }
 }

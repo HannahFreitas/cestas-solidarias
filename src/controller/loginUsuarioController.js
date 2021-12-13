@@ -46,12 +46,13 @@ const getUsersByName = async (req, res) => {
 }
 
 const register = async(req, res) => {
-    const { name, email, password, cpf } = req.body;
+    const { name, email, password, cpf, nickname } = req.body;
 
     try {
         const newUser = new Login({
             name,
             email,
+            nickname,
             cpf,
             password
         })
