@@ -17,28 +17,28 @@
 ],
 "tags": [
     {
-        "name": "Usuários Ajudados",
-        "description": "Manipulação das Rotas dos Usuários Ajudados"
+        "name": "Beneficiados",
+        "description": "Manipulação das Rotas dos Beneficiados"
     },
     {
-        "name": "Usuários Ajudantes",
-        "description": "Manipulação das Rotas dos Usuários Ajudantes"
+        "name": "Doadores",
+        "description": "Manipulação das Rotas dos Doadores"
     }
 ],
 "paths": {
     "/users/create": {
         "post": {
-            "summary": "Cadastro de Usuários Ajudados",
+            "summary": "Cadastro de Beneficiados",
             "description": "Essa rota será responsável por cadastrar um novo usuário que precisa de ajuda",
-            "tags": ["Usuários Ajudados"],
+            "tags": ["Beneficiados"],
             "requestBody": {
                 "content": {
                     "application/json": {
                         "schema": {
-                            "$ref": "#/components/schemas/Usuários Ajudados"
+                            "$ref": "#/components/schemas/Beneficiados"
                         },
                         "example": {
-                            "Usuários Ajudados": {
+                            "Beneficiados": {
                                 "value": {
                                     "_id": "61b3c7936897b5137880ba5a",
                                     "name": "Leandro",
@@ -67,7 +67,42 @@
                         "application/json": {
                             "schema": {
                                 "type": "object",
-                                "$ref": "#/components/schemas/Usuários Ajudados"
+                                "$ref": "#/components/schemas/Beneficiados"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/users": {
+        "get": {
+            "tags": ["Beneficiados"],
+            "summary": "Retorna todos os usuários",
+            "description": "Retorna todos os usuários cadastrados",
+            "parameters": [
+                {
+                    "name": "Beneficiários",
+                    "description": "Retorna todos os beneficiários cadastrados",
+                    "requestBody": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Beneficiados"
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Operação realizada com sucesso",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Beneficiados"
                             }
                         }
                     }
@@ -79,10 +114,10 @@
         "get": {
             "description": "Listar usuários pelo nome",
             "summary": "Listar os usuários por nome",
-            "tags": ["Usuários Ajudados"],
+            "tags": ["Beneficiados"],
             "parameters": [
                 {
-                    "name": "name",
+                    "name": "Beneficiados",
                     "in": "query",
                     "busca": "Todos os usuários por nome",
                     "required": true
@@ -95,7 +130,7 @@
                         "application/json": {
                             "schema": {
                                 "type": "object",
-                                "$ref": "#/components/schemas/Usuários Ajudados"
+                                "$ref": "#/components/schemas/Beneficiados"
                             }
                         }
                     }
@@ -107,7 +142,7 @@
         "put": {
             "description": "Alterar usuários pelo ID",
             "summary": "Altera os usuários por ID",
-            "tags": ["Usuários Ajudados"],
+            "tags": ["Beneficiados"],
             "parameters": [
                 {
                     "name": "Alterar de Usuários por ID",
@@ -120,10 +155,10 @@
                 "content": {
                     "application/json": {
                         "schema": {
-                            "$ref": "#/components/schemas/Usuários Ajudados"
+                            "$ref": "#/components/schemas/Beneficiados"
                         },
                         "example": {
-                            "Usuários Ajudados": {
+                            "Beneficiados": {
                                 "value": {
                                     "_id": "61b3c7936897b5137880ba5a",
                                     "name": "Leandro",
@@ -149,7 +184,7 @@
                         "application/json": {
                             "schema": {
                                 "type": "object",
-                                "$ref": "#/components/schemas/Usuários Ajudados"
+                                "$ref": "#/components/schemas/Beneficiados"
                             }
                         }
                     }
@@ -161,7 +196,7 @@
         "delete": {
             "description": "Deletar usuário",
             "summary": "Deletar os usuários por ID",
-            "tags": ["Usuários Ajudados"],
+            "tags": ["Beneficiados"],
             "parameters": [
                 {
                     "name": "Deletar Usuários por ID",
@@ -177,7 +212,185 @@
                         "application/json": {
                             "schema": {
                                 "type": "object",
-                                "$ref": "#/components/schemas/Usuários Ajudados"
+                                "$ref": "#/components/schemas/Beneficiados"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/helpers/register": {
+        "post": {
+            "tags": [
+                "Doadores"
+            ],
+            "summary": "Cria um cadastro de doadores",
+            "description": "Criar um cadastro para as pessoas que querem ser doadoras",
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/Doadores"
+                        }
+                    }
+                },
+                "required": true
+            },
+            "responses": {
+                "404": {
+                    "description": "ERROR",
+                    "content": {}
+                },
+                "200": {
+                    "description": "Cadastro realizado com sucesso",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "objetc",
+                                "$ref": "#/components/schemas/Doadores"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/helpers/private": {
+        "get": {
+            "tags": [
+                "Doadores"
+            ],
+            "summary": "Retorna todos os doadores",
+            "description": "Mostra o cadastro dos doadores",
+            "parameters": [
+                {
+                    "name": "Doadores",
+                    "description": "Retorna todos os doadores cadastrados",
+                    "requestBody": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Doadores"
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Operação realizada com sucesso",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Doadores"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/helpers/name": {
+        "get": {
+            "description": "Listar usuários pelo nome",
+            "summary": "Listar os usuários por nome",
+            "tags": ["Doadores"],
+            "parameters": [
+                {
+                    "name": "Doadores",
+                    "in": "query",
+                    "busca": "Todos os usuários por nome",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Doadores"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/helpers/update/:id": {
+        "put": {
+            "description": "Alterar usuários pelo ID",
+            "summary": "Altera os usuários por ID",
+            "tags": ["Doadores"],
+            "parameters": [
+                {
+                    "name": "Alterar de Usuários por ID",
+                    "in": "path",
+                    "busca": "Altera os usuários por ID",
+                    "required": true
+                }
+            ],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/Doadores"
+                        },
+                        "example": {
+                            "Beneficiados": {
+                                "value": {
+                                    "_id": "61b3c7936897b5137880b89a",
+                                    "name": "Leandro",
+                                    "nickname": "Santos",
+                                    "email": "leandosantos@hotmail.com",
+                                    "termosDeUso": true,
+                                    "criadoEm": "2021-12-10T21:33:07.344Z"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Doadores"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/helpers/delete/:id": {
+        "delete": {
+            "description": "Deletar usuário",
+            "summary": "Deletar os usuários por ID",
+            "tags": ["Doadores"],
+            "parameters": [
+                {
+                    "name": "Deletar Usuários por ID",
+                    "in": "path",
+                    "busca": "Deleta os usuários por ID",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "204": {
+                    "description": "No content",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/Doadores"
                             }
                         }
                     }
@@ -188,7 +401,7 @@
 },
 "components": {
     "schemas": {
-        "Usuários Ajudados": {
+        "Beneficiados": {
             "type": "object",
             "properties": {
                 "id": {
@@ -229,7 +442,7 @@
                 }
             }
         },
-        "Usuários Ajudantes": {
+        "Doadores": {
             "type": "object",
             "properties": {
                 "id": {
