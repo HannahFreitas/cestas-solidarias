@@ -17,7 +17,7 @@
 
 <p align="justify">Apesar do aumento da desigualdade e do desemprego, há pessoas que também se disponibilizam a ajudar, então o objetivo principal da construção dessa API, é a conexão dessas pessoas que precisam de ajuda, com as pessoas que têm a possibilidade de ajudar. Por meio de doações de cestas básicas, ou até mesmo, transferência bancária via pix. Sempre com a preocupação de proteção dos dados de todos os envolvidos.
 
-<p align="justify">Com o pensamento no futuro de se tornar um projeto grande e viável para a criação de um espaço seguro, que essas pessoas em situação de vulnerabilidade social possam ter oportunidades melhor, de ajuda de todas os tipos, e não só de doações, mas com uma possibilidade de contratações, como implementação futura.
+<p align="justify">Com o pensamento no futuro de se tornar um projeto grande e viável para a criação de um espaço seguro, que essas pessoas em situação de vulnerabilidade social possam ter oportunidades melhores, de ajuda de todas os tipos, e não só de doações, mas com uma possibilidade de contratações, como implementação futura.
 
 <br><br>
 
@@ -25,7 +25,7 @@
 
 <br>
 
-<p align="justify">O projeto é uma API REST que permite que pessoas em situação de vulnerabilidade social, consigam se cadastrar, informando seus dados e descrevendo informações sobre a sua situação atual, de forma objetiva, para que haja a conexões com pessoas ou projetos sociais, que estejam procurando formas de ajudar, contendo assim dois cadastros, um para os beneficiários, e outro para os doadores que querem fazer uma busca de quem necessita ser beneficiado, tendo assim uma opção de login para estas que buscam ajudar, conseguingo acesso as informações de quem está cadastrado no sistema.
+<p align="justify">O projeto é uma API REST que permite que pessoas em situação de vulnerabilidade social, consigam se cadastrar, informando seus dados e descrevendo informações sobre a sua situação atual, de forma objetiva, para que haja a conexões com pessoas ou projetos sociais, que estejam procurando formas de ajudar, contendo assim dois cadastros, um para os beneficiários, e outro para os doadores que querem fazer uma busca de quem necessita ser beneficiado, tendo assim uma opção de login para estas que buscam ajudar, conseguindo acesso as informações de quem está cadastrado no sistema.
 
 <p align="justify">A interface é um CRUD completo integrado com o banco de dados, onde é possível listar os usuários, tanto que precisam de auxílio e quem pode dar este auxílio, cadastrar novos usuários, atualizar os dados e deletar o cadastro do usuário. Tudo isso passando por uma autenticação, gerando um token que permite ou não o acesso as pessoas que estarão no sistema.
 
