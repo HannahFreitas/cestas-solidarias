@@ -15,7 +15,7 @@
 
 <p align="justify">Este projeto nasceu da minha vontade imensa de ajudar as pessoas. Nessa pandemia, observei que os pedidos de ajuda por meio das redes sociais, aumentaram em demasiado. Como já tinha a ideia de construir um projeto que me abrisse oportunidades para construir uma ONG no futuro, então aproveitei esse momento.
 
-<p align="justify">Apesar do aumento da desigualdade e do desemprego, há pessoas que também se disponibilizam a ajudar, então o objetivo principal da construção dessa API, é a conexão dessas pessoas que precisam de ajuda, com as pessoas que têm a possibilidade de ajudar. Por meio de doações de cestas básicas, ou até mesmo, transfêrencia bancária via pix. Sempre com a preocupação de proteção dos dados de todos os envolvidos.
+<p align="justify">Apesar do aumento da desigualdade e do desemprego, há pessoas que também se disponibilizam a ajudar, então o objetivo principal da construção dessa API, é a conexão dessas pessoas que precisam de ajuda, com as pessoas que têm a possibilidade de ajudar. Por meio de doações de cestas básicas, ou até mesmo, transferência bancária via pix. Sempre com a preocupação de proteção dos dados de todos os envolvidos.
 
 <p align="justify">Com o pensamento no futuro de se tornar um projeto grande e viável para a criação de um espaço seguro, que essas pessoas em situação de vulnerabilidade social possam ter oportunidades melhor, de ajuda de todas os tipos, e não só de doações, mas com uma possibilidade de contratações, como implementação futura.
 
