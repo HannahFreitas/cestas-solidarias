@@ -42,7 +42,7 @@
 ## ⚙️ Funcionalidades/Objetivos
 
 - Listar todas as pessoas que estão cadastradas no sistema;
-- Conseguir puxar as pessoas por uma rota privada;
+- Conseguir puxar os dados das pessoas por uma rota privada;
 - Cadastrar pessoas que estejam em caso de vulnerabilidade social e pessoas que possam oferecer um auxílio;
 - Atualizar os dados dessa pessoa, caso haja mudança de bairro, pix, email, celular;
 - Deletar essa pessoa caso não seja mais necessário este suporte a mesma ou a pessoas cadastrada não consiga mais ajudar;
