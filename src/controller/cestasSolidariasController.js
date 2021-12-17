@@ -101,7 +101,7 @@ const deleteUsers = async(req, res) => {
         }
     
 
-        await users.delete();
+        await users.remove();
          res.status(204).json({ message: "Cadastro deletado com sucesso." })
     } catch (error) {
          res.status(500).json({ message: error.message })
